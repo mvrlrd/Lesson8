@@ -8,4 +8,35 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyButtons">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="MyStyle1" parent="MyButtons">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="MyStyle2" parent="MyStyle1">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="MyStyle3" parent="MyButtons">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@android:color/holo_orange_dark</item>
+    </style>
+
+    <style name="MyStyle4" parent="MyStyle3">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+    </style>
+    <style name="MyStyle5" parent="MyStyle1">
+
+    </style>
+
 </resources>
